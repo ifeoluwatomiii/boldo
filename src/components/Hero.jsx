@@ -17,12 +17,12 @@ const Hero = () => {
 						deployment non-disclosure.
 					</p>
                     <div className="flex gap-6 mt-[40px]">
-                        <button className="bg-[#65E4A3] text-[#0A2640] text-[20px] leading-[28px] rounded-full py-4 px-12">Buy template</button>
-                        <button className="border-2 rounded-full border-white text-white px-12 py-4">Explore</button>
+                        <button className="bg-[#65E4A3] text-[#0A2640] text-[20px] leading-[28px] rounded-full py-4 px-12 hover:animate-bounce">Buy template</button>
+                        <button className="border-2 rounded-full border-white text-white px-12 py-4 hover:bg-white hover:text-black hover:animate-bounce">Explore</button>
                     </div>
 				</div>
                 <div className="mt-[71px]">
-                    <img src={hero} alt="graph" />
+                    <img className="hover:animate-pulse space-x-4" src={hero} alt="graph" />
                 </div>
 			</div>
             <div className="bg-white/40 mt-[112px] mx-auto flex items-center justify-center w-[1173px] h-[93px]">
