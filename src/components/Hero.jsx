@@ -22,7 +22,7 @@ const Hero = () => {
                     </div>
 				</div>
                 <div className="mt-[71px]">
-                    <img className="hover:animate-pulse space-x-4" src={hero} alt="graph" />
+                    <img src={hero} alt="graph" />
                 </div>
 			</div>
             <div className="bg-white/40 mt-[112px] mx-auto flex items-center justify-center w-[1173px] h-[93px]">
