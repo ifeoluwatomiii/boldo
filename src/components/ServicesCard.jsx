@@ -8,7 +8,7 @@ const ServicesCard = () => {
 	return (
 		<div className="container max-w-[1280px] mx-auto flex gap-[100px] justify-center items-center">
 			<div>
-				<img src={man} alt="svg man in a green background" />
+				<img className="transition transform hover:hover:scale-95 duration-500 ease-in-out" src={man} alt="svg man in a green background" />
 				<h3 className="text-[24px] leading-[36px] mt-[24px]">
 					Cool feature title
 				</h3>
@@ -23,7 +23,7 @@ const ServicesCard = () => {
 				</div>
 			</div>
 			<div>
-				<img src={handshake} alt="svg man in a green background" />
+				<img className="transition transform hover:hover:scale-95 duration-500 ease-in-out" src={handshake} alt="svg man in a green background" />
 				<h3 className="text-[24px] leading-[36px] mt-[24px]">
 					Even cooler feature
 				</h3>
@@ -38,7 +38,7 @@ const ServicesCard = () => {
 				</div>
 			</div>
 			<div>
-				<img src={sitting} alt="svg man in a green background" />
+				<img className="transition transform hover:hover:scale-95 duration-500 ease-in-out" src={sitting} alt="svg man in a green background" />
 				<h3 className="text-[24px] leading-[36px] mt-[24px]">
 					Even cooler feature
 				</h3>
