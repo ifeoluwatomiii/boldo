@@ -5,6 +5,7 @@ import Services from '../components/Services'
 import Connect from '../components/Connect'
 import Customers from '../components/Customers'
 import Template from '../components/Template'
+import Community from '../components/Community'
 
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
         <Connect/>
         <Customers/>
         <Template/>
+        <Community/>
     </div>
   )
 }

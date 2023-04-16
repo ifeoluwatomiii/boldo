@@ -20,7 +20,7 @@ const Template = () => {
 	};
 
 	return (
-		<div className="bg-[#0A2640] flex flex-col justify-center items-center">
+		<div className="bg-[#0A2640] flex flex-col justify-center items-center py-[96px]">
 			<div className="mt-[96px] text-[48px] leading-[72px]">
 				<h3 className="text-white text-[48px] leading-[72px] text-center">
 					An enterprise template to ramp <br /> up your company website
@@ -32,7 +32,7 @@ const Template = () => {
 					onClick={handlePrev}
 				/>
                 
-				<img src={images[carousel]} alt={`Image ${carousel + 1}`} />
+				<img className="h-[394px] w-[400px]" src={images[carousel]} alt={`Image ${carousel + 1}`} />
                 
 
 				<GrFormNext
