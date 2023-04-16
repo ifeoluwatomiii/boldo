@@ -6,7 +6,7 @@ import { BsArrowRight } from "react-icons/bs";
 
 const ServicesCard = () => {
 	return (
-		<div className="container max-w-[1280px] mx-auto flex gap-[100px] justify-center items-center">
+		<div className="container max-w-[1280px] mx-auto flex gap-[100px] justify-center items-center px-[20px] flex-col xl:flex-row">
 			<div>
 				<img className="transition transform hover:hover:scale-95 duration-500 ease-in-out" src={man} alt="svg man in a green background" />
 				<h3 className="text-[24px] leading-[36px] mt-[24px]">
@@ -22,7 +22,7 @@ const ServicesCard = () => {
 					<BsArrowRight className="relative left-[120px] top-2 w-[24px] h-[26px]" />
 				</div>
 			</div>
-			<div>
+			<div className="mt-[-40px] xl:mt-0">
 				<img className="transition transform hover:hover:scale-95 duration-500 ease-in-out" src={handshake} alt="svg man in a green background" />
 				<h3 className="text-[24px] leading-[36px] mt-[24px]">
 					Even cooler feature
@@ -37,7 +37,7 @@ const ServicesCard = () => {
 					<BsArrowRight className="relative left-[120px] top-2 w-[24px] h-[26px]" />
 				</div>
 			</div>
-			<div>
+			<div className="mt-[-40px] xl:mt-0">
 				<img className="transition transform hover:hover:scale-95 duration-500 ease-in-out" src={sitting} alt="svg man in a green background" />
 				<h3 className="text-[24px] leading-[36px] mt-[24px]">
 					Even cooler feature

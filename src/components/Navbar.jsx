@@ -41,7 +41,7 @@ const Navbar = () => {
 			<div>
 				{isOpen ? (
 					<VscClose
-						className="w-[30px] h-[40px] text-white relative"
+						className="w-[30px] h-[40px] text-white relative cursor-pointer"
 						title="Close"
 						onClick={() => setIsOpen(!isOpen)}
 					/>
