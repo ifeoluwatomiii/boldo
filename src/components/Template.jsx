@@ -5,6 +5,7 @@ import testimoniaal from "../assets/testimoniaal.png";
 import { useState } from "react";
 import { GrFormNext, GrFormPrevious } from "react-icons/gr";
 
+
 const Template = () => {
 	const [carousel, setCarousel] = useState(0);
 
@@ -30,13 +31,16 @@ const Template = () => {
 					className="w-[50px] h-[50px]  bg-white rounded-full cursor-pointer transform translate-x-0"
 					onClick={handlePrev}
 				/>
+                
 				<img src={images[carousel]} alt={`Image ${carousel + 1}`} />
+                
 
 				<GrFormNext
 					className="w-[50px] h-[50px] bg-white rounded-full cursor-pointer"
 					onClick={handleNext}
 				/>
 			</div>
+           
 		</div>
 	);
 };
