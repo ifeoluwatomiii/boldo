@@ -9,9 +9,9 @@ const Services = () => {
 				<h2 className="leading-[72px] text-[48px] text-center hidden xl:flex grow">
 					Handshake infographic mass market <br /> crowdfunding iteration.
 				</h2>
-        <h2 className="leading-[52px] mt-4 text-[38px] text-center xl:hidden">
-        Handshake infographic mass market crowdfunding iteration.
-        </h2>
+				<h2 className="leading-[52px] mt-4 text-[38px] text-center xl:hidden">
+					Handshake infographic mass market crowdfunding iteration.
+				</h2>
 			</div>
 			<div className="px-[20px]">
 				<ServicesCard />
