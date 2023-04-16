@@ -1,7 +1,7 @@
 import React from "react";
-import testimonial from "../assets/testimonial.png";
-import testimoniall from "../assets/testimoniall.png";
-import testimoniaal from "../assets/testimoniaal.png";
+import testimonial1 from "../assets/testimonial1.png";
+import testimonial2 from "../assets/testimonial2.png";
+import testimonial3 from "../assets/testimonial3.png";
 import { useState } from "react";
 import { GrFormNext, GrFormPrevious } from "react-icons/gr";
 
@@ -9,7 +9,7 @@ import { GrFormNext, GrFormPrevious } from "react-icons/gr";
 const Template = () => {
 	const [carousel, setCarousel] = useState(0);
 
-	const images = [testimonial, testimoniall, testimoniaal];
+	const images = [testimonial1, testimonial2, testimonial3];
 
 	const handleNext = () => {
 		setCarousel((prevIndex) => (prevIndex + 2) % images.length);
@@ -20,7 +20,7 @@ const Template = () => {
 	};
 
 	return (
-		<div className="bg-[#0A2640] flex flex-col justify-center items-center py-[96px]">
+		<div className="bg-[#0A2640] flex flex-col justify-center items-center py-[96px] px-[20px]">
 			<div className="mt-[96px] text-[48px] leading-[72px]">
 				<h3 className="text-white text-[48px] leading-[72px] text-center">
 					An enterprise template to ramp <br /> up your company website
