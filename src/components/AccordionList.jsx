@@ -10,7 +10,7 @@ import "react-accessible-accordion/dist/fancy-example.css";
 
 const AccordionList = () => {
 	return (
-		<Accordion allowZeroExpanded={true} >
+		<Accordion  allowZeroExpanded={true} >
 			<AccordionItem>
 				<AccordionItemHeading className="leading-[32px] text-[20px]">
 					<AccordionItemButton >
