@@ -36,11 +36,11 @@ const Hero = () => {
 						</button>
 					</div>
 				</div>
-				<div className="mt-[71px] hidden xl:flex grow">
+				<div className="mt-[71px] xl:mt-0 hidden xl:flex grow justify-end items-center">
 					<img src={hero} alt="graph" />
 				</div>
 			</div>
-			<div className="bg-white/40 mt-[112px] mx-auto hidden xl:flex grow flex items-center justify-center w-[1173px] h-[93px]">
+			<div className="bg-white/40 mt-[112px] mx-auto hidden xl:flex grow  items-center justify-center w-[1173px] h-[93px]">
 				<img src={frame} alt="" />
 			</div>
 		</div>

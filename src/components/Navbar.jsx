@@ -8,7 +8,7 @@ const Navbar = () => {
 	const [isOpen, setIsOpen] = useState(false);
 
 	return (
-		<div className="flex justify-between items-center xl:px-[100px] px-[20px] py-[54px] bg-[#0A2640] w-full">
+		<div className="flex justify-between items-center xl:px-[100px] px-[20px] py-[30px] xl:py-[54px] bg-[#0A2640] w-full">
 			<div className="">
 				<img src={logo} alt="boldo logo" />
 			</div>
