@@ -19,7 +19,7 @@ const Connect = () => {
 					We connect our customers with the best, and help them keep up-and stay
 					open.
 				</h3>
-				<div className="mt-[40px] px-[14px]">
+				<div className="mt-[40px] px-[20px] xl:px-0">
 					<div className="xl:w-[500px] xl:h-[58px] shadow-md shadow-slate-200 rounded py-4 px-4 transition transform hover:hover:scale-110 duration-500 ease-in-out">
 						<img className="absolute" src={icon} alt="" />
 						<p className="relative left-[60px] xl:text-[20px] leading-[32px] text-[16px]">
@@ -39,7 +39,7 @@ const Connect = () => {
 						</p>
 					</div>
 				</div>
-				<div className="px-[20px]">
+				<div className="px-[30px] xl:px-0">
 					<button className="bg-[#0A2640]  text-white text-[20px] leading-[28px] rounded-full py-4 px-12 mt-[56px] hover:animate-bounce">
 						Start Now
 					</button>
