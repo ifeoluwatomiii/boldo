@@ -10,7 +10,7 @@ const Customers = () => {
 			<>
 				<img className="xl:hidden" src={woman} alt="" />
 			</>
-			<div className="flex flex-col xl:gap-[24px]">
+			<div className="flex flex-col xl:gap-[24px] px-[20px] xl:w-1/2">
 				<div className="px-[20px] xl:px-0">
 					{/*desktop text*/}
 					<h3 className="leading-[56px] text-[36px] hidden xl:flex grow">
@@ -25,29 +25,29 @@ const Customers = () => {
 				</div>
 
 				<div className=" xl:px-0">
-					<div className="bg-[#0A2640] xl:w-[500px] h-[58px] rounded py-4 xl:px-4 transition transform hover:hover:scale-110 duration-500 ease-in-out mt-2 px-2">
-						<img className="absolute" src={star} alt="feather logo" />
-						<p className="text-white relative left-[50px] leading-[28px] text-[16px]">
+					<div className="bg-[#0A2640] rounded py-4 xl:px-4 transition transform hover:hover:scale-110 duration-500 ease-in-out mt-2 px-2 flex items-center gap-3">
+						<img className="" src={star} alt="feather logo" />
+						<p className="text-white leading-[28px] text-[16px]">
 							We connect our customers with the best.
 						</p>
 					</div>
-					<div className="xl:w-[500px] h-[58px] shadow-md shadow-slate-200 rounded py-4 xl:px-4 transition transform hover:hover:scale-110 duration-500 ease-in-out mt-2 px-2">
-						<img className="absolute" src={starr} alt="feather logo" />
-						<p className=" relative left-[50px] leading-[28px] text-[16px]">
+					<div className="shadow-md shadow-slate-200 rounded py-4 xl:px-4 transition transform hover:hover:scale-110 duration-500 ease-in-out mt-2 px-2 flex items-center gap-3">
+						<img className="" src={starr} alt="feather logo" />
+						<p className="leading-[28px] text-[16px]">
 							Advisor success customer launch party.
 						</p>
 					</div>
-					<div className="xl:w-[500px] h-[58px] shadow-md shadow-slate-200 rounded py-4 xl:px-4 transition transform hover:hover:scale-110 duration-500 ease-in-out mt-2 px-2">
-						<img className="absolute" src={sun} alt="feather logo" />
-						<p className=" relative left-[50px] leading-[28px] text-[16px]">
+					<div className="shadow-md shadow-slate-200 rounded py-4 xl:px-4 transition transform hover:hover:scale-110 duration-500 ease-in-out mt-2 px-2 flex items-center gap-3">
+						<img className="" src={sun} alt="feather logo" />
+						<p className="leading-[28px] text-[16px]">
 							Business-to-consumer long tail.
 						</p>
 					</div>
 				</div>
 			</div>
-			<div>
+			<div className="xl:w-1/2">
 				<img
-					className="hidden xl:flex grow items-center justify-center"
+					className="hidden xl:flex grow items-center justify-center "
 					src={woman}
 					alt="woman on the telephone"
 				/>

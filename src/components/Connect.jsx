@@ -5,7 +5,7 @@ import icon from "../assets/icon.svg";
 const Connect = () => {
 	return (
 		<div className="mt-[206px] flex justify-center items-center xl:gap-[150px] px-[20px] flex-col xl:flex-row xl:container max-w-[1400px] mx-auto w-full">
-			<div className="mt-[-50px] xl:mt- xl:w-1/2">
+			<div className="mt-[-50px] xl:w-1/2">
 				<img src={phone} alt="man on phone and a graph" />
 			</div>
 			<div className=" px-[20px] xl:px-0 xl:w-1/2">
