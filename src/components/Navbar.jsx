@@ -3,6 +3,7 @@ import logo from "../assets/logo2.png";
 import { Link } from "react-router-dom";
 import { RiMenu4Line } from "react-icons/ri";
 import { VscClose } from "react-icons/vsc";
+import black from "../assets/blackboldo.png"
 
 const Navbar = () => {
 	const [isOpen, setIsOpen] = useState(false);
@@ -29,9 +30,10 @@ const Navbar = () => {
 			<div
 				className={
 					isOpen
-						? "bg-black/70  flex flex-col gap-4 w-[50%] xl:hidden px-4 py-8 text-white mt-8 cursor-pointer  transition-all ease-in duration-500 shadow-lg fixed top-9 left-[43%] items-center"
-						: " text-white transition-all ease-out duration-500 hidden"
+					? "z-20 flex gap-8 list-none cursor-pointer xl:hidden flex-col transition-all ease-in duration-500 top-0 left-0 pl-5 bg-white fixed h-[100vh] w-[70%] shadow-lg pt-4"
+					: "flex gap-8 list-none cursor-pointer flex-col  top-0 left-[-100%] pl-5 bg-white fixed h-[100vh] w-[70%] shadow-lg pt-4 transition-all ease-out duration-500"
 				}>
+					<img className="w-[40%]" src={black} alt="" />
 				<Link to="/" className="hover:bg-white hover:text-black w-full text-center">Product</Link>
 				<Link to="services" className="hover:bg-white hover:text-black w-full text-center">Services</Link>
 				<Link to="about" className="hover:bg-white hover:text-black w-full text-center">About</Link>
